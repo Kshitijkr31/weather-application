@@ -1,0 +1,198 @@
+body {
+  background-image: url("https://imgur.com/9MQ9Us4.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  height: 35vw;
+  width: 24vw;
+  background-color: #d5e432;
+  text-align: center;
+  display: block;
+  margin-left: 37vw;
+  border-radius: 31px;
+}
+
+.search {
+  height: 54px;
+}
+
+.search input {
+  height: 43px;
+  width: 16vw;
+  font-size: 21px;
+  border-radius: 7px;
+  background-color: azure;
+  margin-top: 5px;
+  justify-content: space-between;
+}
+
+.srch-btn {
+  border-radius: 32px;
+  height: 40px;
+  background-color: bisque;
+  width: 43px;
+  font-size: 21px;
+  cursor: pointer;
+}
+
+.container2 {
+  height: 20vw;
+  margin-top: 5px;
+  width: 22vw;
+  background-color: white;
+  text-align: center;
+  margin-left: 16px;
+}
+
+.Weather-img {
+  width: 13vw;
+}
+
+.temperature {
+  font-weight: 800;
+  font-size: 45px;
+  margin: 0; /* Added to remove default margin */
+}
+
+.weather-details {
+  display: block;
+}
+
+.description {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.humidity {
+  align-items: center;
+  display: flex;
+  font-size: 24px;
+}
+
+.wind-speed {
+  align-items: center;
+  display: flex;
+  font-size: 24px;
+}
+
+.humidity-emoji {
+  color: blue;
+  font-size: 45px;
+}
+.wind-emoji {
+  color: blue;
+  font-size: 0px;
+}
+
+.h1 {
+  text-align: center;
+  color: black;
+  font-size: 34px;
+  margin-right: 22px;
+}
+
+.weatherr {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url("https://imgur.com/9MQ9Us4.jpeg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .container {
+    height: 110vw;
+    width: 81vw;
+    background-color: #d5e432;
+    text-align: center;
+    display: block;
+    margin-left: 8vw;
+    border-radius: 31px;
+  }
+
+  .search {
+    height: 54px;
+  }
+
+  .search input {
+    height: 41px;
+    width: 58vw;
+    font-size: 21px;
+    border-radius: 7px;
+    background-color: azure;
+    margin-top: 20px;
+  }
+
+  .srch-btn {
+    border-radius: 32px;
+    height: 40px;
+    background-color: bisque;
+    width: 43px;
+    font-size: 21px;
+    cursor: pointer;
+  }
+
+  .container2 {
+    height: 67vw;
+    width: 73vw;
+    background-color: white;
+    text-align: center;
+    margin-left: 17px;
+    margin-top: 14px;
+}
+  
+
+  .Weather-img {
+    width: 41vw;
+  }
+
+  .temperature {
+    font-weight: 800;
+    font-size: 45px;
+    margin: 0; /* Added to remove default margin */
+  }
+
+  .weather-details {
+    display: block;
+  }
+
+  .description {
+    font-weight: 800;
+    font-size: 24px;
+  }
+
+  .h1 {
+    margin-left: 8px;
+  }
+
+  .humidity {
+    align-items: center;
+    display: flex;
+    font-size: 24px;
+  }
+
+  .wind-speed {
+    align-items: center;
+    display: flex;
+    font-size: 24px;
+  }
+
+  .humidity-emoji {
+    color: blue;
+    font-size: 30px;
+  }
+  .wind-emoji {
+    color: blue;
+    font-size: 70px;
+  }
+
+  .weatherr {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
